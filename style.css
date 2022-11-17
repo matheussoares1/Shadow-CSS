@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background: url("https://s.yimg.com/ny/api/res/1.2/LLEULfdVPQBr1TWIwr80qw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQwNg--/https://s.yimg.com/os/creatr-uploaded-images/2022-02/ddb0af30-957c-11ec-a3fe-2b8bf856f84e")center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+div{
+    width: 100px;
+    height: 100px;
+     background:url("Design\ sem\ nome\ \(1\).png")
+}
+.area{
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+div:nth-child(1){
+    box-shadow: 0.5rem 0 0.5rem black, -0.5rem -0.5rem rgb(100, 100, 100);
+}
+div:nth-child(2){
+    box-shadow: 0.5rem 0 0.5rem black, -0.5rem -0.5rem rgb(100, 100, 100);
+}
+div:nth-child(3){
+    box-shadow: 0.5rem 0 0.5rem black, -0.5rem -0.5rem rgb(100, 100, 100);
+}
+div:nth-child(4){
+    box-shadow: 0.5rem 0 0.5rem black, -0.5rem -0.5rem rgb(100, 100, 100);
+}
+div:nth-child(5){
+    box-shadow: 0.5rem 0 0.5rem black, -0.5rem -0.5rem rgb(100, 100, 100);
+}
+div:nth-child(6){
+    box-shadow: 0.5rem 0 0.5rem black, -0.5rem -0.5rem rgb(100, 100, 100);
+}
